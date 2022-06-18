@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+//import org.w3c.dom.ls.LSOutput;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -28,7 +28,6 @@ public class Main<chars> {
                     chars[i]= chars[j];
                     chars[j]=temp;
 
-
                 }
                 j+=1;
 
@@ -37,8 +36,5 @@ public class Main<chars> {
 
         System.out.println(chars);
     }
-
-
-
 
 }
